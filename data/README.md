@@ -25,4 +25,8 @@ $ curl https:/learn.microsoft.com/api/catalog >> mslearn-catalog-oct-2023.json
 # Download the file, rename it to mslearn-catalog-oct-2023.csv
 ```
 
-You can find the relevant CSV file under `data/mslearn-catatlog-oct-2023.csv`
+The conversion process looks something like this:
+
+![Screenshot of the JSON to CSV conversion UI](./../assets/01-json-to-csv-conversion.png)
+
+You can find the relevant CSV file under `data/mslearn-catatlog-oct-2023.csv`. We can now use this in a new Notebook for LIDA-based querying and visualization of Microsoft Learn Catalog data.
